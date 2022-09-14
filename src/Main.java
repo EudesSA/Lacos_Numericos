@@ -20,5 +20,12 @@ public class Main {
             System.out.println(b);
             }
         }
+        System.out.println("\n \n ________________________________________________\n");
+        //Tabuada de multiplicacação
+        for (int j = 1; j<= 10; j++){
+            for (int k = 1; k <= 10; k++){
+                System.out.println(k + " X " + j + " = " + k * j);
+            }
+        }
     }
 }
